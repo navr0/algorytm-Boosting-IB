@@ -1,0 +1,46 @@
+Test statystyczny dla zbioru: monkone.csv.csv
+Macierz wartoœci t_studenta:
+ [[         nan  42.12895392  26.86549672   0.38723248  11.26063688]
+ [-42.12895392          nan  -6.21623084 -28.75227489  -9.96979806]
+ [-26.86549672   6.21623084          nan -19.12179612  -5.58928953]
+ [ -0.38723248  28.75227489  19.12179612          nan   9.07805494]
+ [-11.26063688   9.96979806   5.58928953  -9.07805494          nan]]
+
+
+Macierz wartoœci p:
+ [[           nan 1.19304828e-11 6.63892551e-10 7.07581991e-01
+  1.32104539e-06]
+ [1.19304828e-11            nan 1.55802915e-04 3.62728730e-10
+  3.66944931e-06]
+ [6.63892551e-10 1.55802915e-04            nan 1.34866428e-08
+  3.38890119e-04]
+ [7.07581991e-01 3.62728730e-10 1.34866428e-08            nan
+  7.95527697e-06]
+ [1.32104539e-06 3.66944931e-06 3.38890119e-04 7.95527697e-06
+             nan]]
+
+
+Macierz true-false:
+ [[False  True  True  True  True]
+ [False False False False False]
+ [False  True False False False]
+ [False  True  True False  True]
+ [False  True  True False False]]
+
+
+Macierz wartoœci alpha:
+ [[False  True  True False  True]
+ [ True False  True  True  True]
+ [ True  True False  True  True]
+ [False  True  True False  True]
+ [ True  True  True  True False]]
+
+
+Macierz przewagi:
+ [[False  True  True False  True]
+ [False False False False False]
+ [False  True False False False]
+ [False  True  True False  True]
+ [False  True  True False False]]
+
+

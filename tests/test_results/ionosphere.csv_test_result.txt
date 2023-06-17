@@ -1,0 +1,46 @@
+Test statystyczny dla zbioru: ionosphere.csv.csv
+Macierz wartoœci t_studenta:
+ [[        nan  5.8521732   2.30402999  4.94582189  9.73996892]
+ [-5.8521732          nan -2.90797747 -0.6343848   6.79600687]
+ [-2.30402999  2.90797747         nan  2.46762008  5.86049059]
+ [-4.94582189  0.6343848  -2.46762008         nan  4.66576793]
+ [-9.73996892 -6.79600687 -5.86049059 -4.66576793         nan]]
+
+
+Macierz wartoœci p:
+ [[           nan 2.43099607e-04 4.66904672e-02 7.95851683e-04
+  4.45370414e-06]
+ [2.43099607e-04            nan 1.73683334e-02 5.41617074e-01
+  7.94106745e-05]
+ [4.66904672e-02 1.73683334e-02            nan 3.57094288e-02
+  2.40594462e-04]
+ [7.95851683e-04 5.41617074e-01 3.57094288e-02            nan
+  1.17559987e-03]
+ [4.45370414e-06 7.94106745e-05 2.40594462e-04 1.17559987e-03
+             nan]]
+
+
+Macierz true-false:
+ [[False  True  True  True  True]
+ [False False False False  True]
+ [False  True False  True  True]
+ [False  True False False  True]
+ [False False False False False]]
+
+
+Macierz wartoœci alpha:
+ [[False  True  True  True  True]
+ [ True False  True False  True]
+ [ True  True False  True  True]
+ [ True False  True False  True]
+ [ True  True  True  True False]]
+
+
+Macierz przewagi:
+ [[False  True  True  True  True]
+ [False False False False  True]
+ [False  True False  True  True]
+ [False False False False  True]
+ [False False False False False]]
+
+

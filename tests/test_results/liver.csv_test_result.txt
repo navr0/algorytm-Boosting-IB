@@ -1,0 +1,46 @@
+Test statystyczny dla zbioru: liver.csv.csv
+Macierz wartoœci t_studenta:
+ [[        nan  7.37654127 -1.04134253  3.15140023  4.440518  ]
+ [-7.37654127         nan -6.06253382 -3.39254354 -1.24075353]
+ [ 1.04134253  6.06253382         nan  5.01755574  4.49011083]
+ [-3.15140023  3.39254354 -5.01755574         nan  1.31172638]
+ [-4.440518    1.24075353 -4.49011083 -1.31172638         nan]]
+
+
+Macierz wartoœci p:
+ [[           nan 4.20683097e-05 3.24881153e-01 1.17111314e-02
+  1.62227906e-03]
+ [4.20683097e-05            nan 1.87598061e-04 7.96691435e-03
+  2.46064907e-01]
+ [3.24881153e-01 1.87598061e-04            nan 7.21487686e-04
+  1.51027753e-03]
+ [1.17111314e-02 7.96691435e-03 7.21487686e-04            nan
+  2.22084382e-01]
+ [1.62227906e-03 2.46064907e-01 1.51027753e-03 2.22084382e-01
+             nan]]
+
+
+Macierz true-false:
+ [[False  True False  True  True]
+ [False False False False False]
+ [ True  True False  True  True]
+ [False  True False False  True]
+ [False  True False False False]]
+
+
+Macierz wartoœci alpha:
+ [[False  True False  True  True]
+ [ True False  True  True False]
+ [False  True False  True  True]
+ [ True  True  True False False]
+ [ True False  True False False]]
+
+
+Macierz przewagi:
+ [[False  True False  True  True]
+ [False False False False False]
+ [False  True False  True  True]
+ [False  True False False False]
+ [False False False False False]]
+
+

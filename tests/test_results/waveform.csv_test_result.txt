@@ -1,0 +1,46 @@
+Test statystyczny dla zbioru: waveform.csv.csv
+Macierz wartoœci t_studenta:
+ [[          nan  -94.67472255 -186.0264765   -56.85247067  -87.18370287]
+ [  94.67472255           nan  -10.71509797   21.08466958    1.55646513]
+ [ 186.0264765    10.71509797           nan   33.68832493   12.4938159 ]
+ [  56.85247067  -21.08466958  -33.68832493           nan  -16.95355819]
+ [  87.18370287   -1.55646513  -12.4938159    16.95355819           nan]]
+
+
+Macierz wartoœci p:
+ [[           nan 8.29815249e-15 1.90649640e-17 8.11309302e-13
+  1.74120779e-14]
+ [8.29815249e-15            nan 2.00795583e-06 5.69581843e-09
+  1.54022439e-01]
+ [1.90649640e-17 2.00795583e-06            nan 8.82107720e-11
+  5.45736465e-07]
+ [8.11309302e-13 5.69581843e-09 8.82107720e-11            nan
+  3.87911289e-08]
+ [1.74120779e-14 1.54022439e-01 5.45736465e-07 3.87911289e-08
+             nan]]
+
+
+Macierz true-false:
+ [[False False False False False]
+ [ True False False  True  True]
+ [ True  True False  True  True]
+ [ True False False False False]
+ [ True False False  True False]]
+
+
+Macierz wartoœci alpha:
+ [[False  True  True  True  True]
+ [ True False  True  True False]
+ [ True  True False  True  True]
+ [ True  True  True False  True]
+ [ True False  True  True False]]
+
+
+Macierz przewagi:
+ [[False False False False False]
+ [ True False False  True False]
+ [ True  True False  True  True]
+ [ True False False False False]
+ [ True False False  True False]]
+
+

@@ -1,0 +1,46 @@
+Test statystyczny dla zbioru: diabetes.csv.csv
+Macierz wartoœci t_studenta:
+ [[        nan -2.27475814 -0.06225381  2.40307251  4.06322244]
+ [ 2.27475814         nan  2.86778933  4.10028364  9.10884807]
+ [ 0.06225381 -2.86778933         nan  3.69835365  5.51515467]
+ [-2.40307251 -4.10028364 -3.69835365         nan  1.96500825]
+ [-4.06322244 -9.10884807 -5.51515467 -1.96500825         nan]]
+
+
+Macierz wartoœci p:
+ [[           nan 4.89805367e-02 9.51721344e-01 3.96973977e-02
+  2.82824210e-03]
+ [4.89805367e-02            nan 1.85434001e-02 2.67557150e-03
+  7.73752845e-06]
+ [9.51721344e-01 1.85434001e-02            nan 4.93312381e-03
+  3.72809316e-04]
+ [3.96973977e-02 2.67557150e-03 4.93312381e-03            nan
+  8.09897024e-02]
+ [2.82824210e-03 7.73752845e-06 3.72809316e-04 8.09897024e-02
+             nan]]
+
+
+Macierz true-false:
+ [[False False False  True  True]
+ [ True False  True  True  True]
+ [ True False False  True  True]
+ [False False False False  True]
+ [False False False False False]]
+
+
+Macierz wartoœci alpha:
+ [[False  True False  True  True]
+ [ True False  True  True  True]
+ [False  True False  True  True]
+ [ True  True  True False False]
+ [ True  True  True False False]]
+
+
+Macierz przewagi:
+ [[False False False  True  True]
+ [ True False  True  True  True]
+ [False False False  True  True]
+ [False False False False False]
+ [False False False False False]]
+
+

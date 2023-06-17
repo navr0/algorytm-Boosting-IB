@@ -1,0 +1,46 @@
+Test statystyczny dla zbioru: balance.csv.csv
+Macierz wartoœci t_studenta:
+ [[         nan -10.05912241 -11.3036806   -4.26915914  -6.41382095]
+ [ 10.05912241          nan  -8.03550378  10.19105009   7.47401701]
+ [ 11.3036806    8.03550378          nan  11.74541663  11.50153831]
+ [  4.26915914 -10.19105009 -11.74541663          nan  -3.13995816]
+ [  6.41382095  -7.47401701 -11.50153831   3.13995816          nan]]
+
+
+Macierz wartoœci p:
+ [[           nan 3.40683103e-06 1.27909129e-06 2.08288658e-03
+  1.23255792e-04]
+ [3.40683103e-06            nan 2.13650459e-05 3.05606305e-06
+  3.79493086e-05]
+ [1.27909129e-06 2.13650459e-05            nan 9.24106363e-07
+  1.10426426e-06]
+ [2.08288658e-03 3.05606305e-06 9.24106363e-07            nan
+  1.19288303e-02]
+ [1.23255792e-04 3.79493086e-05 1.10426426e-06 1.19288303e-02
+             nan]]
+
+
+Macierz true-false:
+ [[False False False False False]
+ [ True False False  True  True]
+ [ True  True False  True  True]
+ [ True False False False False]
+ [ True False False  True False]]
+
+
+Macierz wartoœci alpha:
+ [[False  True  True  True  True]
+ [ True False  True  True  True]
+ [ True  True False  True  True]
+ [ True  True  True False  True]
+ [ True  True  True  True False]]
+
+
+Macierz przewagi:
+ [[False False False False False]
+ [ True False False  True  True]
+ [ True  True False  True  True]
+ [ True False False False False]
+ [ True False False  True False]]
+
+

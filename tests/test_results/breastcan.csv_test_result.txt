@@ -1,0 +1,46 @@
+Test statystyczny dla zbioru: breastcan.csv.csv
+Macierz wartoœci t_studenta:
+ [[         nan   2.68504697   4.29395224  12.34950225   4.11230962]
+ [ -2.68504697          nan   3.04651157  10.99722537   2.61172085]
+ [ -4.29395224  -3.04651157          nan   4.32744138  -0.87779699]
+ [-12.34950225 -10.99722537  -4.32744138          nan  -7.14694321]
+ [ -4.11230962  -2.61172085   0.87779699   7.14694321          nan]]
+
+
+Macierz wartoœci p:
+ [[           nan 2.49985208e-02 2.00838968e-03 6.02721413e-07
+  2.62793302e-03]
+ [2.49985208e-02            nan 1.38709690e-02 1.61336104e-06
+  2.81910869e-02]
+ [2.00838968e-03 1.38709690e-02            nan 1.91224346e-03
+  4.02878384e-01]
+ [6.02721413e-07 1.61336104e-06 1.91224346e-03            nan
+  5.38423924e-05]
+ [2.62793302e-03 2.81910869e-02 4.02878384e-01 5.38423924e-05
+             nan]]
+
+
+Macierz true-false:
+ [[False  True  True  True  True]
+ [False False  True  True  True]
+ [False False False  True False]
+ [False False False False False]
+ [False False  True  True False]]
+
+
+Macierz wartoœci alpha:
+ [[False  True  True  True  True]
+ [ True False  True  True  True]
+ [ True  True False  True False]
+ [ True  True  True False  True]
+ [ True  True False  True False]]
+
+
+Macierz przewagi:
+ [[False  True  True  True  True]
+ [False False  True  True  True]
+ [False False False  True False]
+ [False False False False False]
+ [False False False  True False]]
+
+
