@@ -20,6 +20,7 @@ class RunBoostingIB:
         b_ib_scores = np.zeros((len(csv_files), 10))
         time_start = datetime.now()
         for csv_idx, filename in enumerate(csv_files):
+            print(filename)
             file_path = f'{dir_path}/{filename}'
             current_data = np.loadtxt(file_path, delimiter=',')
 

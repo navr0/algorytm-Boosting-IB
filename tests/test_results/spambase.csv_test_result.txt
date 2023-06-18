@@ -1,22 +1,22 @@
 Test statystyczny dla zbioru: spambase.csv.csv
 Macierz wartoœci t_studenta:
- [[         nan  30.29898165   4.48599973  18.2563104   29.83448414]
- [-30.29898165          nan -26.32174561 -19.20859971 -14.92854223]
- [ -4.48599973  26.32174561          nan  18.1484184   32.3010641 ]
- [-18.2563104   19.20859971 -18.1484184           nan  11.46841078]
- [-29.83448414  14.92854223 -32.3010641  -11.46841078          nan]]
+ [[         nan  24.06125511   1.09340828  15.42505276  19.39679582]
+ [-24.06125511          nan -21.90212336 -17.8544496  -10.98183996]
+ [ -1.09340828  21.90212336          nan  15.39533208  13.61203874]
+ [-15.42505276  17.8544496  -15.39533208          nan   6.25703858]
+ [-19.39679582  10.98183996 -13.61203874  -6.25703858          nan]]
 
 
 Macierz wartoœci p:
- [[           nan 2.27344520e-10 1.51924000e-03 2.02677518e-08
-  2.60932826e-10]
- [2.27344520e-10            nan 7.96354008e-10 1.29594238e-08
-  1.17586426e-07]
- [1.51924000e-03 7.96354008e-10            nan 2.13509118e-08
-  1.28427706e-10]
- [2.02677518e-08 1.29594238e-08 2.13509118e-08            nan
-  1.13159746e-06]
- [2.60932826e-10 1.17586426e-07 1.28427706e-10 1.13159746e-06
+ [[           nan 1.76846598e-09 3.02615034e-01 8.84809608e-08
+  1.18930844e-08]
+ [1.76846598e-09            nan 4.06880044e-09 2.46421400e-08
+  1.63251934e-06]
+ [3.02615034e-01 4.06880044e-09            nan 8.99783096e-08
+  2.61376538e-07]
+ [8.84809608e-08 2.46421400e-08 8.99783096e-08            nan
+  1.48382430e-04]
+ [1.18930844e-08 1.63251934e-06 2.61376538e-07 1.48382430e-04
              nan]]
 
 
@@ -29,15 +29,15 @@ Macierz true-false:
 
 
 Macierz wartoœci alpha:
- [[False  True  True  True  True]
+ [[False  True False  True  True]
  [ True False  True  True  True]
- [ True  True False  True  True]
+ [False  True False  True  True]
  [ True  True  True False  True]
  [ True  True  True  True False]]
 
 
 Macierz przewagi:
- [[False  True  True  True  True]
+ [[False  True False  True  True]
  [False False False False False]
  [False  True False  True  True]
  [False  True False False  True]

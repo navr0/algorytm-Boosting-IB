@@ -1,0 +1,46 @@
+Test statystyczny dla zbioru: page-blocks-1-3_vs_4.csv.csv
+Macierz wartoœci t_studenta:
+ [[         nan   1.74675418  -6.2658049   -3.7810552    4.95228259]
+ [ -1.74675418          nan  -8.09967469  -5.24078222   3.95275597]
+ [  6.2658049    8.09967469          nan   0.85457885  10.27190042]
+ [  3.7810552    5.24078222  -0.85457885          nan  13.82922752]
+ [ -4.95228259  -3.95275597 -10.27190042 -13.82922752          nan]]
+
+
+Macierz wartoœci p:
+ [[           nan 1.14627528e-01 1.46839115e-04 4.34196125e-03
+  7.88827161e-04]
+ [1.14627528e-01            nan 2.00471930e-05 5.34205172e-04
+  3.34072950e-03]
+ [1.46839115e-04 2.00471930e-05            nan 4.14952466e-01
+  2.86088972e-06]
+ [4.34196125e-03 5.34205172e-04 4.14952466e-01            nan
+  2.28014362e-07]
+ [7.88827161e-04 3.34072950e-03 2.86088972e-06 2.28014362e-07
+             nan]]
+
+
+Macierz true-false:
+ [[False  True False False  True]
+ [False False False False  True]
+ [ True  True False  True  True]
+ [ True  True False False  True]
+ [False False False False False]]
+
+
+Macierz wartoœci alpha:
+ [[False False  True  True  True]
+ [False False  True  True  True]
+ [ True  True False False  True]
+ [ True  True False False  True]
+ [ True  True  True  True False]]
+
+
+Macierz przewagi:
+ [[False False False False  True]
+ [False False False False  True]
+ [ True  True False False  True]
+ [ True  True False False  True]
+ [False False False False False]]
+
+

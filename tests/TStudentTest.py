@@ -56,10 +56,12 @@ class TStudentTest:
             file_path = f'{self.dir_path}/{filename}'
             current_data = np.loadtxt(file_path, delimiter=',')
 
-            print(f'test csv {csv_idx+1}')
+            print(f'test csv {csv_idx+1}: {filename}')
 
             x = current_data[:, :-1]
             y = current_data[:, -1]
+
+            print(np.unique(y))
 
             rskf = RepeatedStratifiedKFold(n_repeats=5, n_splits=2)
             std_scores = [[0 for i in range(10)] for j in range(len(self.clfs))]

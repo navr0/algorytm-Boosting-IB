@@ -20,7 +20,7 @@ class CompareClassifiers:
     def __init__(self):
         self.compare_path = f'result_directory/compare.csv'
         self.pool_clfs = [
-            KNeighborsClassifier(),
+            Boosting_IB(repeats=5),
             DecisionTreeClassifier(),
             GaussianNB()
         ]

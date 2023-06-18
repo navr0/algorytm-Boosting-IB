@@ -1,22 +1,22 @@
 Test statystyczny dla zbioru: breastcan.csv.csv
 Macierz wartoœci t_studenta:
- [[         nan   2.68504697   4.29395224  12.34950225   4.11230962]
- [ -2.68504697          nan   3.04651157  10.99722537   2.61172085]
- [ -4.29395224  -3.04651157          nan   4.32744138  -0.87779699]
- [-12.34950225 -10.99722537  -4.32744138          nan  -7.14694321]
- [ -4.11230962  -2.61172085   0.87779699   7.14694321          nan]]
+ [[        nan  2.82439006  3.02994205  6.34721237  1.89585841]
+ [-2.82439006         nan  2.00696463  5.32481835  0.39109949]
+ [-3.02994205 -2.00696463         nan  2.33873179 -1.01997268]
+ [-6.34721237 -5.32481835 -2.33873179         nan -2.91344805]
+ [-1.89585841 -0.39109949  1.01997268  2.91344805         nan]]
 
 
 Macierz wartoœci p:
- [[           nan 2.49985208e-02 2.00838968e-03 6.02721413e-07
-  2.62793302e-03]
- [2.49985208e-02            nan 1.38709690e-02 1.61336104e-06
-  2.81910869e-02]
- [2.00838968e-03 1.38709690e-02            nan 1.91224346e-03
-  4.02878384e-01]
- [6.02721413e-07 1.61336104e-06 1.91224346e-03            nan
-  5.38423924e-05]
- [2.62793302e-03 2.81910869e-02 4.02878384e-01 5.38423924e-05
+ [[           nan 1.99038414e-02 1.42480251e-02 1.33314076e-04
+  9.04852077e-02]
+ [1.99038414e-02            nan 7.56978180e-02 4.77937677e-04
+  7.04821173e-01]
+ [1.42480251e-02 7.56978180e-02            nan 4.41118081e-02
+  3.34374960e-01]
+ [1.33314076e-04 4.77937677e-04 4.41118081e-02            nan
+  1.72143748e-02]
+ [9.04852077e-02 7.04821173e-01 3.34374960e-01 1.72143748e-02
              nan]]
 
 
@@ -29,16 +29,16 @@ Macierz true-false:
 
 
 Macierz wartoœci alpha:
- [[False  True  True  True  True]
- [ True False  True  True  True]
- [ True  True False  True False]
+ [[False  True  True  True False]
+ [ True False False  True False]
+ [ True False False  True False]
  [ True  True  True False  True]
- [ True  True False  True False]]
+ [False False False  True False]]
 
 
 Macierz przewagi:
- [[False  True  True  True  True]
- [False False  True  True  True]
+ [[False  True  True  True False]
+ [False False False  True False]
  [False False False  True False]
  [False False False False False]
  [False False False  True False]]

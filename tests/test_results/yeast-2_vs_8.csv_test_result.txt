@@ -1,0 +1,41 @@
+Test statystyczny dla zbioru: yeast-2_vs_8.csv.csv
+Macierz wartoœci t_studenta:
+ [[        nan  0.5794257  -0.71806365 -1.40913624  0.20321956]
+ [-0.5794257          nan -1.45902319 -3.90289906 -0.57581143]
+ [ 0.71806365  1.45902319         nan -1.5561953   0.69423046]
+ [ 1.40913624  3.90289906  1.5561953          nan  1.68883632]
+ [-0.20321956  0.57581143 -0.69423046 -1.68883632         nan]]
+
+
+Macierz wartoœci p:
+ [[       nan 0.57651586 0.49093647 0.19239656 0.8434837 ]
+ [0.57651586        nan 0.17855945 0.00360348 0.57885404]
+ [0.49093647 0.17855945        nan 0.15408604 0.50506132]
+ [0.19239656 0.00360348 0.15408604        nan 0.12551775]
+ [0.8434837  0.57885404 0.50506132 0.12551775        nan]]
+
+
+Macierz true-false:
+ [[False  True False False  True]
+ [False False False False False]
+ [ True  True False False  True]
+ [ True  True  True False  True]
+ [False  True False False False]]
+
+
+Macierz wartoœci alpha:
+ [[False False False False False]
+ [False False False  True False]
+ [False False False False False]
+ [False  True False False False]
+ [False False False False False]]
+
+
+Macierz przewagi:
+ [[False False False False False]
+ [False False False False False]
+ [False False False False False]
+ [False  True False False False]
+ [False False False False False]]
+
+

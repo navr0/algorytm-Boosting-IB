@@ -1,0 +1,46 @@
+Test statystyczny dla zbioru: ecoli-0-1-4-7_vs_2-3-5-6.csv.csv
+Macierz wartoœci t_studenta:
+ [[        nan  2.95218367 -0.81175639 -1.26979516  4.48744844]
+ [-2.95218367         nan -3.81505886 -6.3740048   1.02516761]
+ [ 0.81175639  3.81505886         nan -0.55496518  4.78034194]
+ [ 1.26979516  6.3740048   0.55496518         nan  5.83036729]
+ [-4.48744844 -1.02516761 -4.78034194 -5.83036729         nan]]
+
+
+Macierz wartoœci p:
+ [[           nan 1.61634741e-02 4.37873140e-01 2.36004923e-01
+  1.51607524e-03]
+ [1.61634741e-02            nan 4.12102034e-03 1.29164587e-04
+  3.32047928e-01]
+ [4.37873140e-01 4.12102034e-03            nan 5.92441395e-01
+  1.00079732e-03]
+ [2.36004923e-01 1.29164587e-04 5.92441395e-01            nan
+  2.49802906e-04]
+ [1.51607524e-03 3.32047928e-01 1.00079732e-03 2.49802906e-04
+             nan]]
+
+
+Macierz true-false:
+ [[False  True False False  True]
+ [False False False False  True]
+ [ True  True False False  True]
+ [ True  True  True False  True]
+ [False False False False False]]
+
+
+Macierz wartoœci alpha:
+ [[False  True False False  True]
+ [ True False  True  True False]
+ [False  True False False  True]
+ [False  True False False  True]
+ [ True False  True  True False]]
+
+
+Macierz przewagi:
+ [[False  True False False  True]
+ [False False False False False]
+ [False  True False False  True]
+ [False  True False False  True]
+ [False False False False False]]
+
+

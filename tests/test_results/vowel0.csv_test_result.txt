@@ -1,0 +1,46 @@
+Test statystyczny dla zbioru: vowel0.csv.csv
+Macierz wartoœci t_studenta:
+ [[        nan -0.48207087 -2.75282716 -1.28690914  5.43729608]
+ [ 0.48207087         nan -3.62377568 -1.09590072  5.39891947]
+ [ 2.75282716  3.62377568         nan  2.5997226   5.65937052]
+ [ 1.28690914  1.09590072 -2.5997226          nan  5.7912244 ]
+ [-5.43729608 -5.39891947 -5.65937052 -5.7912244          nan]]
+
+
+Macierz wartoœci p:
+ [[           nan 6.41262489e-01 2.23731045e-02 2.30237954e-01
+  4.12431500e-04]
+ [6.41262489e-01            nan 5.53906762e-03 3.01579640e-01
+  4.33618837e-04]
+ [2.23731045e-02 5.53906762e-03            nan 2.87513051e-02
+  3.09883519e-04]
+ [2.30237954e-01 3.01579640e-01 2.87513051e-02            nan
+  2.62344743e-04]
+ [4.12431500e-04 4.33618837e-04 3.09883519e-04 2.62344743e-04
+             nan]]
+
+
+Macierz true-false:
+ [[False False False False  True]
+ [ True False False False  True]
+ [ True  True False  True  True]
+ [ True  True False False  True]
+ [False False False False False]]
+
+
+Macierz wartoœci alpha:
+ [[False False  True False  True]
+ [False False  True False  True]
+ [ True  True False  True  True]
+ [False False  True False  True]
+ [ True  True  True  True False]]
+
+
+Macierz przewagi:
+ [[False False False False  True]
+ [False False False False  True]
+ [ True  True False  True  True]
+ [False False False False  True]
+ [False False False False False]]
+
+

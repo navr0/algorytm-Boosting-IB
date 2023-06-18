@@ -1,46 +1,46 @@
 Test statystyczny dla zbioru: german.csv.csv
 Macierz wartoœci t_studenta:
- [[        nan -2.50675422 -3.56446524 -0.43194289  1.00609083]
- [ 2.50675422         nan -1.04092965  2.59531394  4.82748376]
- [ 3.56446524  1.04092965         nan  7.56148707  7.65318297]
- [ 0.43194289 -2.59531394 -7.56148707         nan  3.13509469]
- [-1.00609083 -4.82748376 -7.65318297 -3.13509469         nan]]
+ [[         nan  -3.62587519  -2.09637318   0.78367104   2.20862008]
+ [  3.62587519          nan   2.42522668   5.54435759   9.51944873]
+ [  2.09637318  -2.42522668          nan   4.30681133  11.877323  ]
+ [ -0.78367104  -5.54435759  -4.30681133          nan   1.74432553]
+ [ -2.20862008  -9.51944873 -11.877323    -1.74432553          nan]]
 
 
 Macierz wartoœci p:
- [[           nan 3.34886320e-02 6.07665085e-03 6.75946508e-01
-  3.40653700e-01]
- [3.34886320e-02            nan 3.25062614e-01 2.89599545e-02
-  9.37175291e-04]
- [6.07665085e-03 3.25062614e-01            nan 3.46272005e-05
-  3.14832917e-05]
- [6.75946508e-01 2.89599545e-02 3.46272005e-05            nan
-  1.20226269e-02]
- [3.40653700e-01 9.37175291e-04 3.14832917e-05 1.20226269e-02
+ [[           nan 5.52097897e-03 6.55026345e-02 4.53362303e-01
+  5.45679440e-02]
+ [5.52097897e-03            nan 3.82810792e-02 3.59027971e-04
+  5.38298803e-06]
+ [6.55026345e-02 3.82810792e-02            nan 1.97087527e-03
+  8.40384100e-07]
+ [4.53362303e-01 3.59027971e-04 1.97087527e-03            nan
+  1.15066160e-01]
+ [5.45679440e-02 5.38298803e-06 8.40384100e-07 1.15066160e-01
              nan]]
 
 
 Macierz true-false:
- [[False False False False  True]
+ [[False False False  True  True]
+ [ True False  True  True  True]
  [ True False False  True  True]
- [ True  True False  True  True]
- [ True False False False  True]
+ [False False False False  True]
  [False False False False False]]
 
 
 Macierz wartoœci alpha:
- [[False  True  True False False]
- [ True False False  True  True]
- [ True False False  True  True]
- [False  True  True False  True]
- [False  True  True  True False]]
+ [[False  True False False False]
+ [ True False  True  True  True]
+ [False  True False  True  True]
+ [False  True  True False False]
+ [False  True  True False False]]
 
 
 Macierz przewagi:
  [[False False False False False]
- [ True False False  True  True]
- [ True False False  True  True]
- [False False False False  True]
+ [ True False  True  True  True]
+ [False False False  True  True]
+ [False False False False False]
  [False False False False False]]
 
 
